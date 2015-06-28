@@ -18,13 +18,25 @@ public let Minute                = 60   * Second
 public let Hour                  = 60   * Minute
 
 public class Titan {
+  public static func nanoseconds(duration: Duration) -> Int64 {
+    return duration
+  }
+
   public static func seconds(duration: Duration) -> Float64 {
     let sec = duration / Second
     let nsec = duration % Second
     return Float64(sec) + Float64(nsec)*1e-9
   }
   
-  public static func nanoseconds(duration: Duration) -> Int64 {
-    return duration
+  public static func minutes(duration: Duration) -> Float64 {
+    let min = duration / Minute
+    let	nsec = duration % Minute
+    return Float64(min) + Float64(nsec)*(1e-9/60)
+  }
+
+  public static func hours(duration: Duration) -> Float64 {
+    let hour = duration / Hour
+    let	nsec = duration % Hour
+    return Float64(hour) + Float64(nsec)*(1e-9/60/60)
   }
 }
