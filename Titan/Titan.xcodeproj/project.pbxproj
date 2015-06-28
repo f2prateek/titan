@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0376891B400E8C00F13632 /* Titan.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E0376881B400E8C00F13632 /* Titan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E03768F1B400E8D00F13632 /* Titan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0376831B400E8C00F13632 /* Titan.framework */; };
+		6E0376961B400E8D00F13632 /* TitanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0376951B400E8D00F13632 /* TitanTests.swift */; };
+		6E0376A21B40156400F13632 /* Titan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0376A11B40156400F13632 /* Titan.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E0376901B400E8D00F13632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E03767A1B400E8C00F13632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E0376821B400E8C00F13632;
+			remoteInfo = Titan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E0376831B400E8C00F13632 /* Titan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Titan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0376871B400E8C00F13632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0376881B400E8C00F13632 /* Titan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Titan.h; sourceTree = "<group>"; };
+		6E03768E1B400E8D00F13632 /* TitanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0376941B400E8D00F13632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0376951B400E8D00F13632 /* TitanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitanTests.swift; sourceTree = "<group>"; };
+		6E0376A11B40156400F13632 /* Titan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Titan.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E03767F1B400E8C00F13632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E03768B1B400E8D00F13632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E03768F1B400E8D00F13632 /* Titan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0376791B400E8C00F13632 = {
+			isa = PBXGroup;
+			children = (
+				6E0376851B400E8C00F13632 /* Titan */,
+				6E0376921B400E8D00F13632 /* TitanTests */,
+				6E0376841B400E8C00F13632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E0376841B400E8C00F13632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E0376831B400E8C00F13632 /* Titan.framework */,
+				6E03768E1B400E8D00F13632 /* TitanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E0376851B400E8C00F13632 /* Titan */ = {
+			isa = PBXGroup;
+			children = (
+				6E0376881B400E8C00F13632 /* Titan.h */,
+				6E0376A11B40156400F13632 /* Titan.swift */,
+				6E0376861B400E8C00F13632 /* Supporting Files */,
+			);
+			path = Titan;
+			sourceTree = "<group>";
+		};
+		6E0376861B400E8C00F13632 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0376871B400E8C00F13632 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E0376921B400E8D00F13632 /* TitanTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E0376951B400E8D00F13632 /* TitanTests.swift */,
+				6E0376931B400E8D00F13632 /* Supporting Files */,
+			);
+			path = TitanTests;
+			sourceTree = "<group>";
+		};
+		6E0376931B400E8D00F13632 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0376941B400E8D00F13632 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6E0376801B400E8C00F13632 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0376891B400E8C00F13632 /* Titan.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E0376821B400E8C00F13632 /* Titan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0376991B400E8D00F13632 /* Build configuration list for PBXNativeTarget "Titan" */;
+			buildPhases = (
+				6E03767E1B400E8C00F13632 /* Sources */,
+				6E03767F1B400E8C00F13632 /* Frameworks */,
+				6E0376801B400E8C00F13632 /* Headers */,
+				6E0376811B400E8C00F13632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Titan;
+			productName = Titan;
+			productReference = 6E0376831B400E8C00F13632 /* Titan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E03768D1B400E8D00F13632 /* TitanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E03769C1B400E8D00F13632 /* Build configuration list for PBXNativeTarget "TitanTests" */;
+			buildPhases = (
+				6E03768A1B400E8D00F13632 /* Sources */,
+				6E03768B1B400E8D00F13632 /* Frameworks */,
+				6E03768C1B400E8D00F13632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0376911B400E8D00F13632 /* PBXTargetDependency */,
+			);
+			name = TitanTests;
+			productName = TitanTests;
+			productReference = 6E03768E1B400E8D00F13632 /* TitanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E03767A1B400E8C00F13632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = f2prateek;
+				TargetAttributes = {
+					6E0376821B400E8C00F13632 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6E03768D1B400E8D00F13632 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 6E03767D1B400E8C00F13632 /* Build configuration list for PBXProject "Titan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E0376791B400E8C00F13632;
+			productRefGroup = 6E0376841B400E8C00F13632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E0376821B400E8C00F13632 /* Titan */,
+				6E03768D1B400E8D00F13632 /* TitanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E0376811B400E8C00F13632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E03768C1B400E8D00F13632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E03767E1B400E8C00F13632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0376A21B40156400F13632 /* Titan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E03768A1B400E8D00F13632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0376961B400E8D00F13632 /* TitanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E0376911B400E8D00F13632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E0376821B400E8C00F13632 /* Titan */;
+			targetProxy = 6E0376901B400E8D00F13632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E0376971B400E8D00F13632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E0376981B400E8D00F13632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E03769A1B400E8D00F13632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Titan/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E03769B1B400E8D00F13632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Titan/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6E03769D1B400E8D00F13632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TitanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E03769E1B400E8D00F13632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TitanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E03767D1B400E8C00F13632 /* Build configuration list for PBXProject "Titan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0376971B400E8D00F13632 /* Debug */,
+				6E0376981B400E8D00F13632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0376991B400E8D00F13632 /* Build configuration list for PBXNativeTarget "Titan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E03769A1B400E8D00F13632 /* Debug */,
+				6E03769B1B400E8D00F13632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E03769C1B400E8D00F13632 /* Build configuration list for PBXNativeTarget "TitanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E03769D1B400E8D00F13632 /* Debug */,
+				6E03769E1B400E8D00F13632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E03767A1B400E8C00F13632 /* Project object */;
+}
